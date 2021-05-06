@@ -49,7 +49,7 @@ function getPic(pic) {
         $("iframe").css("width", "500px")
         $("iframe").css("height", "350px")
         $("iframe").css("display", "block")
-        $("iframe").css("marginTop", "22px")
+        $("iframe").css("marginTop", "25px")
 
     }
 }

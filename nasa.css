@@ -64,8 +64,8 @@ img {
 
 iframe {
     display: none;
-    width: 640px;
-    height: 400px;
+    max-width: 640px;
+    max-height: 400px;
 }
 
 input {
