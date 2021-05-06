@@ -41,7 +41,7 @@ function getPic(pic) {
         $("iframe").css("display", "none")
         $("img").attr("src", img)
         $("img").css("display", "block")
-        $("img").css("margin", "6px")
+        $("img").css("margin", "5px")
     } else {
 
         $("img").css("display", "none")
@@ -49,7 +49,7 @@ function getPic(pic) {
         $("iframe").css("width", "500px")
         $("iframe").css("height", "350px")
         $("iframe").css("display", "block")
-        $("iframe").css("marginTop", "20px")
+        $("iframe").css("marginTop", "22px")
 
     }
 }
