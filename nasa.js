@@ -40,16 +40,16 @@ function getPic(pic) {
 
         $("iframe").css("display", "none")
         $("img").attr("src", img)
-        $("img").css("display", "initial")
-        $("img").css("margin", "10px 0 0 0")
+        $("img").css("display", "block")
+        $("img").css("margin", "5px 0 0 0")
     } else {
 
         $("img").css("display", "none")
         $("iframe").attr("src", img);
-        $("iframe").css("width", "600px")
+        $("iframe").css("width", "500px")
         $("iframe").css("height", "350px")
-        $("iframe").css("display", "initial")
-        $("iframe").css("marginTop", "40px")
+        $("iframe").css("display", "block")
+        $("iframe").css("marginTop", "20px")
 
     }
 }
